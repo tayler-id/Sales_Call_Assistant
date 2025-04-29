@@ -1,0 +1,29 @@
+# Project Specific Rules
+
+This file contains rules specific to the Sales Call Assistant project.
+
+## Memory Bank
+
+- Always maintain the core memory bank files: `projectbrief.md`, `productContext.md`, `systemPatterns.md`, `techContext.md`, `activeContext.md`, and `progress.md`.
+- Create additional context files in the `memory-bank/` directory as needed for complex features, integrations, APIs, testing, or deployment.
+- Review and update relevant memory bank files after significant changes or when new patterns are discovered.
+- Explicitly update the memory bank when requested by the user with "update memory bank".
+
+## Tool Usage
+
+- Prefer using the `sequentialthinking` MCP tool for complex problem-solving and planning.
+- Use the `context7` MCP server (`github.com/upstash/context7-mcp`) for retrieving documentation.
+- Use `replace_in_file` for targeted code edits and `write_to_file` for creating new files or overwriting entire files.
+- Always wait for user confirmation after each tool use before proceeding.
+
+## Code Standards
+
+- [Add project-specific coding standards here, e.g., language, framework conventions, formatting rules]
+
+## Testing
+
+- [Describe testing strategy and practices]
+
+## Deployment
+
+- [Describe deployment process]
